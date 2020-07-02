@@ -1,0 +1,164 @@
+    body,div{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    h1,h2,h3,h4{
+        margin:0;
+    }
+
+    h1  {
+        font-size: 50px;
+        }
+
+    h2  {
+        font-size: 40px;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+
+    p{
+        color:dimgray;
+    }
+
+
+/* 1st section starts here */
+.half-width{
+    width:35%;
+    float: left;
+}
+.half-width img{
+    width:100%;
+}
+.half-width h1{
+    color:#ec4c7a;
+    font-weight:700;
+}
+
+#half-width1{
+margin-left:15%;
+margin-top:15%;
+}
+#half-width2{
+    margin-right:10%;
+    margin-top:10%;
+    }
+
+
+#profile{
+    background-image: url(Images/header-bg.png);
+    height:800px;
+     /* background-size: contain;  */
+     background-size: cover;  /*amar background image size ta div theke big astecilo. tai aita div e fit korar jonno aita deya hoice */
+}
+
+.button{
+        color:white;
+        text-decoration: none;
+        background-image: linear-gradient(45deg,#ec5197, #ed4b6e);
+        padding:10px 40px;
+        border-radius: 5px;
+        font-weight: 700;
+        }
+
+/* 2nd section starts here */
+
+#half-width3{
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%); /*upor theke ai 3 line kora hoice image take vertical middle anar jonno.*/
+                margin-left:10%;
+                margin-right:10%;
+                
+            }
+
+#half-width4{
+                margin-right:10%;
+                margin-top:20%;
+            }
+
+#half-width4 h1{
+                color:black;
+                font-weight:200;
+                }
+#biography{
+            background-image: url(Images/biography-bg.png);
+            height:800px;
+            background-size: contain; 
+            /* background-size: cover;  amar background image size ta div theke big astecilo. tai aita div e fit korar jonno aita deya hoice */
+            }
+    
+
+            /* 3rd section starts here */
+
+#latest-work h1{
+    text-align: center;
+    color:black;
+    font-weight:200;
+
+}
+
+#latest-work img{
+    display: inline;
+    width: 33%;
+    
+}
+
+#latest-work{
+    background-image: url(Images/latest-work-bg.png);
+    height:400px;
+    /* background-size: contain;  */
+     background-size: cover;  /*amar background image size ta div theke big astecilo. tai aita div e fit korar jonno aita deya hoice */
+     padding:10%;
+    }
+
+    /* 4th section starts here */
+
+    #clint-says {
+        text-align: center;
+    }
+    #clint-says h1{
+        color:black;
+        font-weight:200;
+    }
+
+
+
+    #clint-says{
+        background-image: url(Images/footer-bg.png);
+        height:600px;
+        background-size: contain; 
+        background-size: cover;  /*amar background image size ta div theke big astecilo. tai aita div e fit korar jonno aita deya hoice */
+         padding:5% 20%;
+        }
+
+        .copyright{
+            padding-top:10%;
+            padding-bottom: 2%;
+        }
+        .complement{
+            color: black;
+            font-size: 22px;
+            font-weight: 100;
+        }
+
+        .button1{
+            margin:auto;
+            width: 50%;
+            text-decoration: none;
+            color: white;
+            background-image: linear-gradient(45deg,#ec5197, #ed4b6e);
+            border-radius: 10px;
+            padding:10px;
+        }
+        .button1 p{
+            color: white;
+        }
+
+        .button1 a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
